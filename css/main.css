@@ -1,0 +1,97 @@
+body {
+  background: rgb(0,0,0);
+  color: rgb(255,255,0);
+}
+header {
+  background: rgb(255, 255, 0);
+  color: rgb(0,0,0);
+  border-bottom: 4px solid rgb(255,0,0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.galerie ul {
+  background: rgb(255,255,255);
+  padding: 26px;
+  /*faire un commentaire en css*/
+  /*padding = marge, interieures*/
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  /*permet d'enlever les points d'un liste*/
+  display: flex;
+  background-color:87,95,255; 
+
+}
+nav a{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border: 1px solid rgb(0,0,0);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+section{
+  min-height: 90vh;
+  /*vh : view port , correspond a ce que l'utilisateur est capable de voir en plein ecran*/
+}
+
+.identity{
+  background-color: rgb(87,95,255);
+
+  border:1px;
+}
+
+#why {
+
+  background: pink;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-conteneur {
+
+box-shadow: -40px 43px 42px -15px rgba(121,34,179,1);
+max-width: 800px;
+/*permet de donner une taille maximum a une image ou texte sans un minimum et permet de rendre des choses responsives*/
+padding: 60px;
+text-align: center;
+}
+.section-2 {
+border-radius: 80px 80px 80px 80px;
+
+-webkit-border-radius: 80px 80px 80px 80px;
+border: 9px solid #FAD241;
+background-color: #0D0AAD;
+max-height: 300px;
+padding-right: 80px;
+text-align: center;
+}
+
+figure {
+  border: 3em solid turquoise;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /*permet de cneter avec margin auto left et right*/
+}
+
+figure img {
+  width: 100%;
+}
+footer
+{/*fixe la position*/
+  position:fixed;
+  /*en bas à 0px*/
+  bottom:0px;
+  /*fond du pied de page noir*/
+  background-color: black;
+  /*eciture blanche*/
+  color:white;
+  width: auto;

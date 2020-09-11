@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans+Condensed:wght@700&family=Raleway:wght@600&display=swap');
+
+/*voir le turtoriel sur adobe(google) font pour integrer leur typo dans un site web*/
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alfa Slab One', cursive;
+}
+nav {font-family: 'Raleway', sans-serif;
+
+}
+
+
+h1 {
+  font-size: 4em;
+}
+header h1 {
+  font-size: 2em;
+
+
+}
